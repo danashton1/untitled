@@ -20,7 +20,17 @@ date_default_timezone_set('Europe/London');
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="act1.php"><img src="assets/img/logo-social.png"</a>
+        <a class="navbar-brand" href="index.php"><img src="../assets/img/logo-social.png" class="d-inline-block align-top"
+                                                     width="50" height="50">My homepage</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="request.php">Request</a>
+            </li>
+        </ul>
+        <div class="nav navbar-nav navbar-right">
+            <a class="btn btn-primary navbar-btn">Login</a>
+        </div>
 </nav>
-</body>
-</html>
